@@ -12,7 +12,11 @@ public class Business implements Addressable {
 		this.name = name;
 	}
 	
-	
+	/*-------------------------------------|
+	 * 			                           |
+	 * 	  --- Getters and Setters ---      |
+	 *                                     |
+	 *-----------------------------------*/
 	public String getName () { return name; }
 	@Override
 	public List<Address> getAddresses() { return addresses; }
